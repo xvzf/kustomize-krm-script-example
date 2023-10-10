@@ -1,0 +1,8 @@
+apiVersion: aks
+kind: DemoEnvGenerator
+metadata:
+  name: demo
+  annotations:
+    config.kubernetes.io/function: |
+      container:
+        image: krm-demo
